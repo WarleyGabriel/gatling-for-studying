@@ -1,0 +1,9 @@
+#IntelliJ
+.idea
+
+#Gradle
+gatling/.gradle/*
+gatling/gradle/*
+
+#Build
+gatling/build/*
