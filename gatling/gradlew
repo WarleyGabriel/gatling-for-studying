@@ -7,7 +7,7 @@
 ##############################################################################
 
 # Remove logs
-rm -rf ./build/reports/gatling/
+rm -rf ./build/reports/demo-gatling/
 
 # Attempt to set APP_HOME
 # Resolve links: $0 may be a link

@@ -1,4 +1,4 @@
-package br.com.gatling.poc
+package br.com.gatling.demo
 
 import io.gatling.http.Predef._
 import io.gatling.core.Predef._

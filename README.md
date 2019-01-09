@@ -1,28 +1,25 @@
-## Gatling
+## DEMO Gatling
 
-**Gatling** é um projeto de testes de performance, carga ou stress. <br/>
-Os testes são desenvolvidos em Scala utilizando o framework [Gatling](https://gatling.io/) <br/>
-Como gerenciador de dependências é utilizado `gradle`
+**DEMO Gatling** is a project for load tests. <br/>
 
-#### Pré requisitos
+#### Requirements
 
 - gradle >= 4.7
 
-#### Como executar
+#### Getting Started
 
-Para instalar as dependências do projeto, execute dentro do diretório `./gatling`;
+Install the dependencies, go to the directory `./gatling` and execute;
 ```
 gradle build
 ```
 
-Para executar os testes, execute dentro do mesmo diretório;
+Run tests;
 
 ```
 ./gradlew gatlingRun
 ```
 
 #### Report
-Report é gerado desse modelo: <br/>
 ![alt text](https://github.com/WarleyGabriel/gatling/blob/master/images/report.png)
 
-O report é gerado dentro do diretório `gatling/build/reports/gatling`
+The reports are available in `gatling/build/reports/gatling`
